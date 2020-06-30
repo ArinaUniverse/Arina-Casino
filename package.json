@@ -1,0 +1,33 @@
+{
+  "name": "casino",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000r\u0000a\u0000c\u0000e\u0000\r\u0000 \u0000",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test",
+    "test lct": "truffle test ./test/LCT_Test.js",
+    "test race": "truffle test ./test/race_Test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/x32323/casino.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/x32323/race/issues"
+  },
+  "homepage": "https://github.com/x32323/race#readme",
+  "devDependencies": {
+    "@nomiclabs/buidler": "^1.0.1",
+    "mocha": "^6.2.2",
+    "should": "^13.2.3"
+  },
+  "dependencies": {
+    "@truffle/artifactor": "^4.0.56",
+    "describe": "^1.2.0"
+  }
+}
